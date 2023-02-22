@@ -1,0 +1,22 @@
+SELECT * FROM prontuariodigital.local_exames;
+insert into local_exames (Cod_Local_Exame, Tipo_Exame, Cod_Unid_Saude, Cod_Exames)
+values ('1002', 'Ultra-sonografia', '1003', '10409'),
+('1125', 'RM - Ressonância Magnética', '1100', '10489'),
+('2030', 'Ureia e Creatinina', '2337', '16232'),
+('3179', 'Sorologia - Teste Covid', '6179', '20798'), 
+('6470', 'Eletrocardiograma', '6476', '28211'),
+('6572', 'Holter/Mapa', '6572', '37860'),
+('5550', 'Eletroencefalograma', '6631', '39543'),
+('7090', 'Eletrofisiológicos', '7095', '56076'),
+('7120', 'EAS - Exame Urinário', '7124', '65894'),
+('8710', 'testes hepático e hemograma', '8719', '68150'),
+('9110', 'Urocultura', '1003', '74012'),
+('8719', 'Ecodopler', '1100', '74502'),
+('9454', 'Audiometria', '2337', '86431'),
+('1442', ' Biópsia', '6179', '97668'),
+('1488', 'Diagnóstico Bocal', '6476', '48153'),
+('2449', 'Análise dermatológico', '6572', '87213'),
+('3398', 'Pterígio', '6631', '56417'),
+('6566', 'Otoneurológico', '7095', '47654'), 
+('8540', 'Espirometria', '7124', '77891'),
+('9946', 'Hemograma completo', '8719', '39891');

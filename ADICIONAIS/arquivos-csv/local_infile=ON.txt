@@ -1,0 +1,17 @@
+
+
+For default installation of MySQL 8.0.20:
+
+i) Look for the initialization file located at C:\ProgramData\MySQL\MySQL Server 8.0\my.ini.
+
+ii) Open my.ini file with notepad.
+
+iii) Look for the headers [client], [mysql] under the CLIENT section & [mysqld] under the SERVER section.
+
+iv) Add the following statement under each header:
+
+local_infile=ON
+
+v) Save the file and restart MySQL80 service under the Windows local services.
+
+It should work.

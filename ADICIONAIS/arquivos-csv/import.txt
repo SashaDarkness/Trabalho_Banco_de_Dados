@@ -1,0 +1,19 @@
+LOAD DATA LOCAL INFILE '/User/Darkness/Downloads/Código_Mysql_Workbenck_EQUIPE_03/Código_Mysql_Workbenck_EQUIPE_03/ADICIONAIS(PROCEDURE-TRIGGERS-FUNCTION)/lista_estado_br.csv'  
+INTO TABLE lista_estado
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY ';'
+IGNORE 1 ROWS
+(IBGE, estado, UF, regiao, qtd_mun, sintaxe);
+
+
+------------------------
+
+
+LOAD DATA INFILE '/tmp/lista_estado_br.csv'   
+INTO TABLE lista_estado
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(IBGE, estado, UF, regiao, qtd_mun, sintaxe);

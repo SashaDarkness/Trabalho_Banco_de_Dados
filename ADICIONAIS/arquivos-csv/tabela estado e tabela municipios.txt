@@ -1,0 +1,12 @@
+tabela lista_estado_br:
+PROCV(A2;'Lista de Estados IBGE'!$A$2:$C$28;2;0)
+
+
+
+----------------------
+
+
+tabela lista_municipio_br:
+PROCV(A2;'[Lista de Municípios com IBGE - Brasil.xlsx]Lista de Municípios IBGE'!$A$2:$G$5566;4;0)
+
+PROCV(A2;'Lista de Municípios IBGE'!$A$2:$G$5566;4;0)

@@ -1,0 +1,28 @@
+IBGE;estado;UF;regiao;qtd_mun;sintaxe
+11;Rondônia;RO;Região Norte;52;11RO
+12;Acre;AC;Região Norte;22;12AC
+13;Amazonas;AM;Região Norte;62;13AM
+14;Roraima;RR;Região Norte;15;14RR
+15;Pará;PA;Região Norte;144;15PA
+16;Amapá;AP;Região Norte;16;16AP
+17;Tocantins;TO;Região Norte;139;17TO
+21;Maranhão;MA;Região Nordeste;217;21MA
+22;Piauí;PI;Região Nordeste;224;22PI
+23;Ceará;CE;Região Nordeste;184;23CE
+24;Rio Grande do Norte;RN;Região Nordeste;167;24RN
+25;Paraíba;PB;Região Nordeste;223;25PB
+26;Pernambuco;PE;Região Nordeste;185;26PE
+27;Alagoas;AL;Região Nordeste;102;27AL
+28;Sergipe;SE;Região Nordeste;75;28SE
+29;Bahia;BA;Região Nordeste;417;29BA
+31;Minas Gerais;MG;Região Sudeste;853;31MG
+32;Espírito Santo;ES;Região Sudeste;78;32ES
+33;Rio de Janeiro;RJ;Região Sudeste;92;33RJ
+35;São Paulo;SP;Região Sudeste;645;35SP
+41;Paraná;PR;Região Sul;399;41PR
+42;Santa Catarina;SC;Região Sul;295;42SC
+43;Rio Grande do Sul;RS;Região Sul;497;43RS
+50;Mato Grosso do Sul;MS;Região Centro-Oeste;79;50MS
+51;Mato Grosso;MT;Região Centro-Oeste;141;51MT
+52;Goiás;GO;Região Centro-Oeste;246;52GO
+53;Distrito Federal;DF;Região Centro-Oeste;1;53DF
